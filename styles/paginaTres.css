@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background: radial-gradient(circle,#262427, #000000 ) ;
     color: white;
     font-family: sans-serif;
 }

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background: radial-gradient(circle,#262427, #000000 ) ;
     color: white;
     font-family: sans-serif;
 }
@@ -104,7 +104,8 @@ nav a:hover{
     flex-wrap: wrap;
     justify-content:flex-start;
     align-content: flex-end;
-    margin-top: 350px;
+    margin-top: 440px;
+    margin-left: 50px;
 }
 .icon{
     margin: 0px 10px;
@@ -118,6 +119,7 @@ nav a:hover{
     justify-content:flex-start;
     align-content: flex-end;
     margin-top: 10px;
+    margin-left: 50px;
 }
 #text h4{
     margin: 0px 10px;
@@ -135,6 +137,7 @@ main{
 #populares{
     width: 100%;
     margin: 10px auto;
+    margin-top: 75px;
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -208,6 +211,8 @@ footer{
     margin-top: 20px;
     padding: 0px;
     display: flex;
+    position: sticky;
+    bottom: 0;
     flex-wrap: wrap;
     justify-content:center;
     align-content: center;

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background: radial-gradient(circle,#262427, #000000 ) ;
     color: white;
     font-family: sans-serif;
 }
@@ -24,17 +24,18 @@ body{
     margin: 10px auto;
     padding: 5px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;  
+    align-content: center;
+    text-align: center;
 }
 #logo{
     color: #FF0021;
     margin-left: 15px;
     font-family: Impact;
 }
-.from{
+.form{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,5 +85,8 @@ body{
     #iniciar{
         margin-bottom: 5px;
         margin-left: 80px;
+    }
+    #mensaje{
+
     }
 }    
