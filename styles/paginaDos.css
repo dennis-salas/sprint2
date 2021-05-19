@@ -1,0 +1,268 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+#contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#contenedor-1{
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+#logo{
+    color: #FF0021;
+    margin: 0;
+    font-family: Impact;
+}
+nav{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+nav a:hover{
+    color: #FF0021;
+}
+#slider{ 
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+#slider-img{
+    width: 100%;
+    height: 70vh;
+}
+#slider-img li{
+    width: 100%;
+    margin: 0px;
+    margin: 0x;
+    position:absolute;
+    list-style: none;
+}
+.img{
+    width: 100%;
+    height: 75vh;
+}
+#slider-boton{
+   display: flex;
+   flex-direction: row; 
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+#slider-boton a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: white;
+    text-decoration: none;
+    background-color: gray;
+    padding: 5px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    position: absolute;
+}
+#barraHeader{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+}
+#icon{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-content: flex-end;
+    margin-top: 350px;
+}
+.icon{
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+#text{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-content: flex-end;
+    margin-top: 10px;
+}
+#text h4{
+    margin: 0px 10px;
+    padding: 0px 5px;
+    font-size: 10px;
+}
+main{
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+#populares{
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;  
+}
+.populares-netnet{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    overflow: hidden;
+}
+.imagenes-populares{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+#seriesJaponesas{
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;  
+}
+.seriesJaponesas-netnet{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    overflow: hidden;
+}
+.imagenes-seriesJaponesas{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+#seriesCrimenes{
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;  
+}
+.seriesCrimenes-netnet{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    overflow: hidden;
+}
+.imagenes-seriesCrimenes{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+footer{
+    width: 100%;
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: center;
+}
+#iconos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+li{
+    list-style: none;
+    margin-left: 20px;
+}
+@media (max-width: 770px){
+    #icon{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        align-content: flex-end;
+        margin-top: 550px;
+    }
+    .populares-netnet{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .seriesJaponesas-netnet{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .seriesCrimenes-netnet{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+}

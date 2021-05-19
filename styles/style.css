@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.contenedor-titulo{
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;  
+}
+#logo{
+    color: #FF0021;
+    margin-left: 15px;
+    font-family: Impact;
+}
+.from{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+#formulario{
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid white;
+}
+#iniciar{
+    margin-bottom: 5px;
+    margin-left: 100px;
+}
+#iniciar:hover{
+    background-color:#e70c2a;
+}
+#registrar{
+    margin-top: 15px;
+    margin-left: 115px;
+    color: #FF0021;
+    font-size: 10px;
+}
+#registrar:hover{
+    font-size: 20px;
+    margin-left: 90px;
+}
+@media (max-width: 360px){
+    #email{
+        margin-left: 50px;
+    }
+    #emailinput{
+        margin-left: 30px;
+    }
+    #contraseña{
+        margin-left: 50px;
+    }
+    #contraseñainput{
+        margin-left: 30px;
+    }
+    #registrar{
+        margin-top: 15px;
+        margin-left: 100px;
+        color: #FF0021;
+        font-size: 10px;
+    }
+    #iniciar{
+        margin-bottom: 5px;
+        margin-left: 80px;
+    }
+}    
